@@ -1,0 +1,8 @@
+# TUTORIAL
+https://yudiwbs.wordpress.com/2018/02/20/pos-tagger-bahasa-indonesia-dengan-pytho/
+
+# DATASET
+https://github.com/UniversalDependencies/UD_Indonesian
+https://github.com/famrashel/idn-tagged-corpus
+http://www.panl10n.net/english/OutputsIndonesia2.htm
+https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1989

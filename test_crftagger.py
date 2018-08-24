@@ -35,13 +35,13 @@ hasil = ct.tag_sents([new_sentence])
 # ---------------------------------------------------------------|
 # untuk melihat frekuensi kata yang muncul
 # ---------------------------------------------------------------|
-# for tokenTag in hasil[0]:
-#     token, tag = tokenTag;
-#     token_text = unicodedata.normalize(u'NFKD', token).encode(u'ascii',u'ignore')
-#     print(token_text,"->",tag);
+for tokenTag in hasil[0]:
+    token, tag = tokenTag;
+    token_text = unicodedata.normalize(u'NFKD', token).encode(u'ascii',u'ignore')
+    print(token_text,"->",tag);
 
 # ----------------------------------------------------------------------------|
 # Stemming merupakan suatu proses untuk menemukan kata dasar dari sebuah kata
 # ----------------------------------------------------------------------------|
-snowball_stemmer = SnowballStemmer("english")
-print(snowball_stemmer.stem('probability'))
+# snowball_stemmer = SnowballStemmer("english")
+# print(snowball_stemmer.stem('probability'))
